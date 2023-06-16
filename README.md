@@ -3,7 +3,7 @@ A project for "The Sun" DIY lamp/prop from OneShot game. Work-in-progress
 ## Features
 * ~8W of output power
 * Battery powered
-* USB-C rechargable (optional: with USB PD)
+* USB-C rechargable
 * Adjustable brightness
 * 3D printed construction
 ## Motivation
