@@ -1,4 +1,4 @@
-21869199050665298
+21867509625223606
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90648,11 +90648,4 @@ HVSSOP, 8 Pin (https://www.ti.com/lit/ds/symlink/tpa6110a2.pdf), generated with 
 HVSSOP SO
 0
 13
-9
-projectfb
-TI_SO-PowerPAD-8
-8-Lead Plastic PSOP, Exposed Die Pad (TI DDA0008B, see http://www.ti.com/lit/ds/symlink/lm3404.pdf)
-SSOP 0.50 exposed pad
-0
-12
 9
