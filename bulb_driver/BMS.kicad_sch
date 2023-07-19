@@ -8,7 +8,7 @@
   )
 
 
-  (hierarchical_label "I^{2}C_{SDA}" (shape output) (at 127 50.8 0) (fields_autoplaced)
+  (hierarchical_label "I^{2}C_{SDA}" (shape bidirectional) (at 127 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0c7b605c-ac60-4a25-be90-7bdafc958aa0)
   )
@@ -20,7 +20,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 52ea2e65-38ba-433e-be33-5a8e18d2c7e7)
   )
-  (hierarchical_label "I^{2}C_{SCL}" (shape output) (at 127 76.2 0) (fields_autoplaced)
+  (hierarchical_label "I^{2}C_{SCL}" (shape input) (at 127 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8c9bdcef-6a3c-40e8-aeb4-ca0d4f875763)
   )

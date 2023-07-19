@@ -515,6 +515,14 @@
     [
       "386f4791-0eb5-4cf3-a076-50099bc2592a",
       "BMS"
+    ],
+    [
+      "5b77d719-2c57-4150-a419-0429fff65c59",
+      "Touch buttons"
+    ],
+    [
+      "50adb9b4-1b65-4ec0-8512-a06bfbe73499",
+      "USB"
     ]
   ],
   "text_variables": {}
