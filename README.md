@@ -1,15 +1,19 @@
+### __*This branch contains only KiCad project for LM3410 boost converter intended for testing*__
+___
 # OneShot bulb
-A project for "The Sun" DIY lamp/prop from OneShot game. Work-in-progress
+This is my project of "The Sun" from the OneShot game. This is a
+DIY lamp/prop. Work-in-progress
 ## Features
-* ~8W of output power
-* Battery powered
-* USB-C rechargable
+* Around 4W of output power
+* Up to 22V of output voltage
+* Open-circuit protection
+* Battery or/and USB powered
+* USB-C connector (and/or induction charging, maybe)
 * Adjustable brightness
+* Touch controls
 * 3D printed construction
-## Motivation
-OneShot game has really inspired me to create this project.
+### Early prototype
 ![image](https://user-images.githubusercontent.com/30117426/224850171-0c21f35e-2a67-4217-b9e7-d4456c9b5fd0.png)
 *Barely working prototype*
-## TODO
-* Finish schematic
-* Make better LED filament holder
+___
+### __*This branch contains only KiCad project for LM3410 boost converter intended for testing*__
