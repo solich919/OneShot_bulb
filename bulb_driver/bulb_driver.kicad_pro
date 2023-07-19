@@ -503,6 +503,18 @@
     [
       "a662f7bf-9c13-4ccb-87cd-8868bb64c17e",
       ""
+    ],
+    [
+      "4a974a5d-7eeb-4175-8e60-ef8964ac82d5",
+      "LM3410"
+    ],
+    [
+      "eb6caed7-acb5-41dc-9e1d-d8bd8701bd79",
+      "uC"
+    ],
+    [
+      "386f4791-0eb5-4cf3-a076-50099bc2592a",
+      "BMS"
     ]
   ],
   "text_variables": {}
