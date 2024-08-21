@@ -1,5 +1,5 @@
-# OneShot bulb
-This is my project of "The Sun" from the OneShot game. This is a
+# Sun bulb
+This is my project of "The Sun" inspired by OneShot game. This is a
 DIY lamp/prop. Work-in-progress
 # TODOs
 - [x] Create a preliminary physical design
