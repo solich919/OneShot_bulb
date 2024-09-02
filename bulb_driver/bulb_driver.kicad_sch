@@ -1,434 +1,263 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid a662f7bf-9c13-4ccb-87cd-8868bb64c17e)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:Battery_Cell" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "BT" (at 2.54 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Battery_Cell" (at 2.54 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 1.524 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 1.524 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "battery cell" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Single-cell battery" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Battery_Cell_0_1"
-        (rectangle (start -2.286 1.778) (end 2.286 1.524)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -1.524 1.016) (end 1.524 0.508)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.778)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 3.048)
-            (xy 1.778 3.048)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 3.556)
-            (xy 1.27 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Battery_Cell_1_1"
-        (pin passive line (at 0 5.08 270) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 116.84 111.76) (xy 116.84 114.3))
-    (stroke (width 0) (type default))
-    (uuid 2099dda3-08b5-4684-89e8-d1072d6e1ca0)
-  )
-  (wire (pts (xy 165.1 101.6) (xy 190.5 101.6))
-    (stroke (width 0) (type default))
-    (uuid 41f3db43-d5b0-4a7e-9f55-85b35247202b)
-  )
-  (wire (pts (xy 63.5 109.22) (xy 88.9 109.22))
-    (stroke (width 0) (type default))
-    (uuid 513b7cfb-35a6-454c-8f2a-0e7aaa026658)
-  )
-  (wire (pts (xy 63.5 97.79) (xy 63.5 93.98))
-    (stroke (width 0) (type default))
-    (uuid 703193c5-18e1-4f6b-8849-81887e8898c1)
-  )
-  (wire (pts (xy 63.5 93.98) (xy 88.9 93.98))
-    (stroke (width 0) (type default))
-    (uuid 8851d3f6-ae24-4853-a0a4-5c78f326fb4e)
-  )
-  (wire (pts (xy 116.84 91.44) (xy 116.84 88.9))
-    (stroke (width 0) (type default))
-    (uuid 95c7e29b-fe09-4ab7-8f6f-9832218d62e3)
-  )
-  (wire (pts (xy 63.5 105.41) (xy 63.5 109.22))
-    (stroke (width 0) (type default))
-    (uuid 98f0ced0-e5e0-435f-a873-e581456507e1)
-  )
-  (wire (pts (xy 114.3 102.87) (xy 139.7 102.87))
-    (stroke (width 0) (type default))
-    (uuid 9b958564-6349-48a2-8be2-4b691af1c5c4)
-  )
-  (wire (pts (xy 114.3 100.33) (xy 139.7 100.33))
-    (stroke (width 0) (type default))
-    (uuid ac12bb90-c51b-45d7-ab15-cc07279f16d2)
-  )
-  (wire (pts (xy 114.3 111.76) (xy 116.84 111.76))
-    (stroke (width 0) (type default))
-    (uuid b3909c04-951f-4eaf-b6a7-a944d339ab66)
-  )
-  (wire (pts (xy 114.3 91.44) (xy 116.84 91.44))
-    (stroke (width 0) (type default))
-    (uuid d593cbf8-76cf-4214-ad38-8ed80b198914)
-  )
-
-  (symbol (lib_id "Device:Battery_Cell") (at 63.5 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 150d464e-7fc6-4753-9430-2dd304bc4998)
-    (property "Reference" "BT1" (at 67.31 99.7585 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Battery_Cell" (at 67.31 102.2985 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 63.5 101.346 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 63.5 101.346 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ddb01ba1-7eaf-4e99-84bb-fc126cf92d97))
-    (pin "2" (uuid 5d6e8f88-740b-463e-b1b9-5594cf8ff294))
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
-          (reference "BT1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 116.84 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4e7f50a4-b64f-4b2a-b59b-c4e0271593cd)
-    (property "Reference" "#PWR04" (at 116.84 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 116.84 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 116.84 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 116.84 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dbcde4bc-189c-4a02-997c-a3cef5d3b2f5))
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/4a974a5d-7eeb-4175-8e60-ef8964ac82d5"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 116.84 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d604ba52-a673-4cd1-9729-4fca42d37b9f)
-    (property "Reference" "#PWR03" (at 116.84 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 116.84 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 116.84 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 116.84 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ae0a1a2f-69ff-4b29-b78a-95c493589a09))
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
-          (reference "#PWR03") (unit 1)
-        )
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/4a974a5d-7eeb-4175-8e60-ef8964ac82d5"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 88.9 88.9) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 386f4791-0eb5-4cf3-a076-50099bc2592a)
-    (property "Sheetname" "BMS" (at 88.9 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "BMS.kicad_sch" (at 88.9 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "V_{BAT+}" input (at 88.9 93.98 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1ba7cbeb-2bee-4a5d-ad04-f0b3b72981f6)
-    )
-    (pin "V_{BAT-}" input (at 88.9 109.22 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8a41dbc1-3b15-49a2-a519-01c05bf642bd)
-    )
-    (pin "V_{SS}" output (at 114.3 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 983c2aa8-7916-49cd-b278-d48b3f6de108)
-    )
-    (pin "V_{CC}" output (at 114.3 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 36267478-9538-4287-97b7-0ca27ea309a4)
-    )
-    (pin "I^{2}C_{SCL}" input (at 114.3 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 54200a3b-7b76-4bcb-8d89-761aa647b4e4)
-    )
-    (pin "I^{2}C_{SDA}" bidirectional (at 114.3 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 877146e2-f360-4bba-9a50-9420de81010d)
-    )
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 190.5 88.9) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4a974a5d-7eeb-4175-8e60-ef8964ac82d5)
-    (property "Sheetname" "LM3410" (at 190.5 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "lm3410driver.kicad_sch" (at 190.5 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "PWM" input (at 190.5 101.6 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4a38ecfe-2954-4bc5-9281-367965df209e)
-    )
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 50.8) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 50adb9b4-1b65-4ec0-8512-a06bfbe73499)
-    (property "Sheetname" "USB" (at 114.3 50.0884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "usb.kicad_sch" (at 114.3 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 165.1 50.8) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5b77d719-2c57-4150-a419-0429fff65c59)
-    (property "Sheetname" "Touch buttons" (at 165.1 50.0884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "touch.kicad_sch" (at 165.1 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 88.9) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid eb6caed7-acb5-41dc-9e1d-d8bd8701bd79)
-    (property "Sheetname" "uC" (at 139.7 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "uC.kicad_sch" (at 139.7 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "PWM" output (at 165.1 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e4d8d98e-a23b-4f1c-9933-8bfc3b7727e4)
-    )
-    (pin "I^{2}C_{SCL}" output (at 139.7 102.87 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b607605b-91ad-448c-a5e6-acb67bf4f32b)
-    )
-    (pin "I^{2}C_{SDA}" bidirectional (at 139.7 100.33 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e58b0557-00b3-41ba-a08c-59e256de93c6)
-    )
-    (pin "PTC" bidirectional (at 156.21 88.9 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 78597a24-0bbb-4b86-acbd-2f2393a21d12)
-    )
-    (instances
-      (project "bulb_driver"
-        (path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a662f7bf-9c13-4ccb-87cd-8868bb64c17e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f3db43-d5b0-4a7e-9f55-85b35247202b")
+	)
+	(sheet
+		(at 88.9 88.9)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "386f4791-0eb5-4cf3-a076-50099bc2592a")
+		(property "Sheetname" "BMS and Battery"
+			(at 88.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 88.9 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bulb_driver"
+				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 88.9)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a974a5d-7eeb-4175-8e60-ef8964ac82d5")
+		(property "Sheetname" "LM3410"
+			(at 190.5 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lm3410driver.kicad_sch"
+			(at 190.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" input
+			(at 190.5 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a38ecfe-2954-4bc5-9281-367965df209e")
+		)
+		(instances
+			(project "bulb_driver"
+				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 50.8)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50adb9b4-1b65-4ec0-8512-a06bfbe73499")
+		(property "Sheetname" "USB"
+			(at 88.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 88.9 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bulb_driver"
+				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 50.8)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b77d719-2c57-4150-a419-0429fff65c59")
+		(property "Sheetname" "Touch buttons"
+			(at 165.1 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "touch.kicad_sch"
+			(at 165.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bulb_driver"
+				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb6caed7-acb5-41dc-9e1d-d8bd8701bd79")
+		(property "Sheetname" "uC"
+			(at 139.7 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uC.kicad_sch"
+			(at 139.7 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" output
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4d8d98e-a23b-4f1c-9933-8bfc3b7727e4")
+		)
+		(pin "I^{2}C_{SCL}" output
+			(at 139.7 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b607605b-91ad-448c-a5e6-acb67bf4f32b")
+		)
+		(pin "I^{2}C_{SDA}" bidirectional
+			(at 139.7 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e58b0557-00b3-41ba-a08c-59e256de93c6")
+		)
+		(pin "PTC" bidirectional
+			(at 156.21 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78597a24-0bbb-4b86-acbd-2f2393a21d12")
+		)
+		(instances
+			(project "bulb_driver"
+				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
