@@ -1678,7 +1678,7 @@
 			(uuid "83ea443f-245c-45cb-8de8-cf7640c615dd")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "R7")
 					(unit 1)
@@ -1814,7 +1814,7 @@
 			(uuid "62ddebed-c287-4898-8516-e22b29a931d0")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "#PWR010")
 					(unit 1)
@@ -1896,7 +1896,7 @@
 			(uuid "0a1b7a25-bc29-4826-b1f3-ada8f05e6799")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "U3")
 					(unit 1)
@@ -1979,7 +1979,7 @@
 			(uuid "6971fc8a-917d-4044-b026-8502fb902395")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "Q1")
 					(unit 1)
@@ -2045,7 +2045,7 @@
 			(uuid "1fcb18b0-7ec0-4a5f-b648-a1e32b5c18f5")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "#PWR011")
 					(unit 1)
@@ -2115,7 +2115,7 @@
 			(uuid "e49d00c0-34db-4024-8562-b39dd10b81b0")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "C4")
 					(unit 1)
@@ -2183,7 +2183,7 @@
 			(uuid "567997d1-88f2-4d86-ae1a-41bf0d66c078")
 		)
 		(instances
-			(project ""
+			(project "bulb_driver"
 				(path "/a662f7bf-9c13-4ccb-87cd-8868bb64c17e/386f4791-0eb5-4cf3-a076-50099bc2592a"
 					(reference "R8")
 					(unit 1)
