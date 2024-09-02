@@ -36,7 +36,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BMS.kicad_sch"
+		(property "Sheetfile" "battery.kicad_sch"
 			(at 88.9 114.8846 0)
 			(effects
 				(font
@@ -140,7 +140,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 50.8)
+		(at 139.7 50.8)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -152,7 +152,7 @@
 		)
 		(uuid "5b77d719-2c57-4150-a419-0429fff65c59")
 		(property "Sheetname" "Touch buttons"
-			(at 165.1 50.0884 0)
+			(at 139.7 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "touch.kicad_sch"
-			(at 165.1 76.7846 0)
+			(at 139.7 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
