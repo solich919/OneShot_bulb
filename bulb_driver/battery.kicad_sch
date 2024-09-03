@@ -1361,12 +1361,6 @@
 		(uuid "663e5631-3626-49bc-a809-314c0bb2a802")
 	)
 	(junction
-		(at 172.72 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89650a1f-ddca-4524-a143-80849ab3c07b")
-	)
-	(junction
 		(at 146.05 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1383,6 +1377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd299917-2d0d-4207-aae3-59f0e4b7e03d")
+	)
+	(junction
+		(at 173.99 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1922ec1-b13f-4093-b911-95329472501d")
 	)
 	(no_connect
 		(at 162.56 78.74)
@@ -1410,13 +1410,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 82.55) (xy 172.72 76.2)
+			(xy 133.35 73.66) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3929b398-e813-4dfb-a2cb-4b365fb88034")
+		(uuid "1dabc86b-5305-4ad8-9e41-4437a638b28c")
 	)
 	(wire
 		(pts
@@ -1427,6 +1427,16 @@
 			(type default)
 		)
 		(uuid "3f5d6aaf-54e1-4968-96b3-88b72850ca20")
+	)
+	(wire
+		(pts
+			(xy 133.35 80.01) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4376571a-85e0-4027-b772-b31cd6247b89")
 	)
 	(wire
 		(pts
@@ -1470,16 +1480,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 142.24 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a2b344-160d-47fb-b8d6-428fc3f3d86e")
-	)
-	(wire
-		(pts
 			(xy 118.11 50.8) (xy 121.92 50.8)
 		)
 		(stroke
@@ -1487,16 +1487,6 @@
 			(type default)
 		)
 		(uuid "64eff489-16d1-4572-9c34-44b86a18fb53")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 135.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ad8d08-6535-4d00-ab59-c45c513ced0d")
 	)
 	(wire
 		(pts
@@ -1510,6 +1500,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 63.5) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7a5f69-a2a0-4c4e-af3c-6ebbfc4f8333")
+	)
+	(wire
+		(pts
 			(xy 101.6 59.69) (xy 101.6 50.8)
 		)
 		(stroke
@@ -1520,7 +1520,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 190.5 76.2)
+			(xy 173.99 80.01) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7753b978-3274-4c72-935f-38d40693ed61")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 173.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1570,16 +1580,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 172.72 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba293471-af08-41f6-9c0a-5892276944cf")
-	)
-	(wire
-		(pts
 			(xy 146.05 50.8) (xy 121.92 50.8)
 		)
 		(stroke
@@ -1587,6 +1587,16 @@
 			(type default)
 		)
 		(uuid "cacd62d5-6c87-4e92-b64d-c0eb25f931fd")
+	)
+	(wire
+		(pts
+			(xy 173.99 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3386cb1-d6f1-4da9-9b09-392339e19f47")
 	)
 	(wire
 		(pts
@@ -1608,9 +1618,50 @@
 		)
 		(uuid "f79343e6-91b5-4b4a-8cc7-368a70fb9d01")
 	)
+	(wire
+		(pts
+			(xy 133.35 66.04) (xy 133.35 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c39473-799f-400e-97c4-22d3b24055af")
+	)
+	(text "~1A overcurrent, good for 150mA output current but more require some modifications.\nMaybe add space for multiple mosfets"
+		(exclude_from_sim no)
+		(at 155.448 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06e2fba8-2569-400d-a91a-16a9d90f72b0")
+	)
+	(text "0R028 @ 2,5V"
+		(exclude_from_sim no)
+		(at 162.56 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09ab2a10-61a4-4d43-a6ec-9e432b978fe8")
+	)
+	(text "60mV overcurrent cutoff\n"
+		(exclude_from_sim no)
+		(at 177.8 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f5f6d69-ef60-4ba0-9160-24a3917ab590")
+	)
 	(text "Actually we are using DMG6968UDM, the same but lower R_{DS_{on}}"
 		(exclude_from_sim no)
-		(at 139.954 31.242 0)
+		(at 162.56 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1620,7 +1671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 82.55 90)
+		(at 133.35 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1629,23 +1680,25 @@
 		(fields_autoplaced yes)
 		(uuid "04ddcba3-2c01-49c2-811b-8397d50ac315")
 		(property "Reference" "R7"
-			(at 146.05 86.36 90)
+			(at 130.81 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2k7"
-			(at 146.05 88.9 90)
+			(at 130.81 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 84.328 90)
+			(at 135.128 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 82.55 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1716,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 82.55 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP9101CK6"
+		(property "Value" "AP9101CK6-ANTRG1"
 			(at 148.2441 55.88 0)
 			(effects
 				(font
